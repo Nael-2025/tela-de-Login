@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'> 
+    <link rel="stylesheet" href="styles.css">
+    <title>tela de login</title>
+</head>
+<body>
+    <main class="container"> <!--principal-->
+        <form>
+            <h1>Login</h1>
+            <div class="input-box"> <!--caixa de entrada de email-->
+                <input placeholder="Usuário" type="email" name="email">
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-box"> <!--caixa de entrada de senha-->
+                <input placeholder="Senha" type="password" name="password">
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="remember-forgot"> 
+                <label>
+                    <input type="checkbox">
+                    lembrar senha
+                </label>
+                <a href="#">Esqueci a Senha</a>
+            </div>
+
+            <button class="login" type="submit">Login</button> <!--o erro estvava na identificação da teg login-->
+
+            <div class="register-link"> <!--registrar link-->
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
